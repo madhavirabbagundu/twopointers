@@ -12,15 +12,15 @@ for(var i = 0; i < arr.length; i++){
             out.push(arr[k])
         }
         console.log(out)
-    //     if(out.length === K){
-    //         console.log(out)
-    //         for(var l = 0; l < K; l++){
-    //             sum+=out[l]
-    //         }
-    //         out1.push(sum)
+        if(out.length === K){
+            console.log(out)
+            for(var l = 0; l < K; l++){
+                sum+=out[l]
+            }
+            out1.push(sum)
 
-    //     }
+        }
     }
     // console.log(sum)
 }
-// console.log(out1)
+console.log(out1)
